@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!--deklarasi penggunaan sumber jquery-->
+    <script src="jquery-3.6.0.min.js" charset="utf-8"></script>
+    <!--deklarasi penggunaan jquery yang akan digunakan-->
+    <script type="text/javascript">
+      $(document).ready(function(){ //deklarasi function akan bisa diaktifkan setelah dokumen selesai loading
+        setTimeout(function(){ //deklarasi function akan diaktifkan setelah waktu yang ditentukan habis
+          $("#kotak").fadeOut("slow",function(){ //deklarasi function fadeOut untuk id kotak
+            $("#kotak").remove(); //deklarasi function remove untuk id kotak
+          });
+        }, 3000);
+      });
+    </script>
+    <style type="text/css">
+    /* style css dari id kotak */
+      #kotak {
+        width: 300px;
+        height: 50px;
+        background: lightyellow;
+        border: 1px solid black;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--deklarasi h3 dengan id kotak -->
+    <h3 id="kotak">
+    Perhatikan baik baik teks ini, karena
+    teks ini akan hilang dalam hitungan 3 detik</h3>
+  </body>
+</html>

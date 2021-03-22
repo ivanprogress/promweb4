@@ -1,0 +1,100 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  background-color:#161616;
+}
+.left_area{
+  background: linear-gradient(#0F0F0F,#161616,#161616);
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+}
+.left_area .profile_image{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.left_area span{
+  color: #fff;
+  display: block;
+  width: 100%;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 900;
+  margin-top: -20px;
+}
+.isilatihan{
+  background-color: #474747;
+  width: 60%;
+  height: 75%;
+  top: 10%;
+  left: 130px;
+  position: fixed;
+  border-radius: 20px;
+  transform: translate(300px, 0px);
+}
+button{
+  color: #ffffff;
+  background-color: #161616;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10%;
+  border-color: #161616;
+  margin-top: 10%;
+}
+button:hover{
+  background: #999999;
+}
+#img1,#img2{
+  width: 427px;
+  height: 240px;
+  border-radius: 5%;
+  position: fixed;
+}
+#img1{
+  margin-left: 2%;
+  margin-top: 5%;
+}
+#img2{
+  margin-left: 52%;
+  margin-top: 5%;
+}
+.button1{
+  margin-left: 13%;
+}
+.button3{
+  margin-left: 21%;
+}
+.judul1{
+  color: #F1F1F1;
+  text-transform: capitalize;
+  font-family: "calibri" sans-serif;
+  margin-top: 5%;
+  margin-left: 12%;
+  font-size: 28px;
+  text-shadow: 5px 3px 4px #0F0F0F;
+}
+.kotak1,.kotak2,.kotak3,.kotak4{
+  background-color: #b5b5b5;
+  width: 100px;
+  height: 100px;
+  margin: 2%;
+  display: inline-block;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.button5{
+  margin-left: 33%;
+}
+#img3{
+  width: 640px;
+  height: 360px;
+  border-radius: 5%;
+  position: fixed;
+  margin-top: 1%;
+  margin-left: 15%;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!--deklarasi penggunaan sumber jquery-->
+    <script src="jquery-3.6.0.min.js" charset="utf-8"></script>
+    <!--deklarasi penggunaan jquery yang akan digunakan-->
+    <script type="text/javascript">
+      $(document).ready(function(){ //deklarasi function akan bisa diaktifkan setelah dokumen selesai loading
+      $("div").addClass("biru");}); //menambah class dari div
+    </script>
+    <style type="text/css">
+    /* style css dari class biru */
+      .biru {
+        color: blue;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <!--deklarasi div -->
+    <div>
+      <!--deklarasi paragraf -->
+      <p>paragrap pertama</p>
+    </div>
+    <div>
+      <!--deklarasi bullet -->
+      <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      </ul>
+    </div>
+  </body>
+</html>

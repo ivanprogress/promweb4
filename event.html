@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!--deklarasi penggunaan sumber jquery-->
+    <script src="jquery-3.6.0.min.js" charset="utf-8"></script>
+    <!--deklarasi penggunaan jquery yang akan digunakan-->
+    <script type="text/javascript">
+      $(document).ready(function(){ //deklarasi function akan bisa diaktifkan setelah dokumen selesai loading
+        $("a").click(function(){ //deklarasi atribut a akan meluncurkan function berikut setelah di klik
+          alert("selamat datang di website facebook") //memunculkan dialog box berisi berikut
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <!--deklarasi link yang akan menuju website facebook -->
+    <a href="http://facebook.com">klik disini untuk membuka website facebook</a>
+  </body>
+</html>

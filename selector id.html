@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!--deklarasi penggunaan sumber jquery-->
+    <script src="jquery-3.6.0.min.js" charset="utf-8"></script>
+    <!--deklarasi penggunaan jquery yang akan digunakan-->
+    <script type="text/javascript">
+    $(document).ready(function() { //deklarasi function akan bisa diaktifkan setelah dokumen selesai loading
+      //menambah class dari id daftar
+      $("#daftar").addClass("merahkuning");});</script>
+      <style type="text/css">
+      /* style css dari class merahkuning */
+        .merahkuning {
+          color: orange;
+          font-weight: bold;
+          background-color: green;
+          padding: 3px;
+        }
+      </style>
+  </head>
+  <body>
+    <!--deklarasi div -->
+    <div>
+      <!--deklarasi paragraf -->
+      <p>parargaf pertama</p>
+    </div>
+    <div>
+      <!--deklarasi bullet dengan id daftar-->
+      <ul id="daftar">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      </ul>
+    </div>
+  </body>
+</html>

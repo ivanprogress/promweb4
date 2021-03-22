@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!--link CSS-->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!--hiasan sisi kiri-->
+    <div class="left_area">
+      <center>
+        <img src="img/Logo1.png" class="profile_image" alt="">
+      </center>
+      <span> ivan faiz daniar</span>
+    </div>
+
+    <!--deklarasi div utk kotak hasil praktikum-->
+    <div class="isilatihan">
+      <h3 class="judul1">klik 2x pada setiap kotak untuk mengubah warnanya</h3> <!--deklarasi h3 dengan class judul1-->
+      <div class="kotak1"></div> <!--deklarasi div dengan class kotak1-->
+      <div class="kotak2"></div> <!--deklarasi div dengan class kotak2-->
+      <div class="kotak3"></div> <!--deklarasi div dengan class kotak3-->
+      <div class="kotak4"></div> <!--deklarasi div dengan class kotak4-->
+    </div>
+
+    <!--deklarasi penggunaan sumber jquery-->
+    <script src="jquery-3.6.0.min.js" charset="utf-8"></script>
+    <!--deklarasi penggunaan jquery yang akan digunakan-->
+    <script type="text/javascript">
+      $(document).ready(function(){ //deklarasi function akan bisa diaktifkan setelah dokumen selesai loading
+        $(".kotak1").dblclick(function(){ //deklarasi class kotak1 akan meluncurkan function berikut setelah di 2 kali di klik
+          $(".kotak1").css("background-color", "red") //deklarasi function mengubah warna class kotak1 menjadi warna merah
+        });
+        $(".kotak2").dblclick(function(){ //deklarasi class kotak2 akan meluncurkan function berikut setelah di 2 kali di klik
+          $(".kotak2").css("background-color", "blue") //deklarasi function mengubah warna class kotak2 menjadi warna biru
+        });
+        $(".kotak3").dblclick(function(){ //deklarasi class kotak3 akan meluncurkan function berikut setelah di 2 kali di klik
+          $(".kotak3").css("background-color", "green") //deklarasi function mengubah warna class kotak3 menjadi warna hijau
+        });
+        $(".kotak4").dblclick(function(){ //deklarasi class kotak4 akan meluncurkan function berikut setelah di 2 kali di klik
+          $(".kotak4").css("background-color", "yellow") //deklarasi function mengubah warna class kotak4 menjadi warna kuning
+        });
+      });
+    </script>
+  </body>
+</html>
